@@ -1,6 +1,5 @@
-@"
-.idea/
+.venv/
 __pycache__/
 *.pyc
-.venv/
-"@ | Set-Content .gitignore -Encoding ascii
+.idea/
+rag/_embeddings-cache.json
